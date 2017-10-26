@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignedTo" xml:space="preserve">
+    <value>Assigned to</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="CodePlexWorkItemId" xml:space="preserve">
+    <value>CodePlex work item ID</value>
+  </data>
+  <data name="CommentPostedByPersonXOnDateY" xml:space="preserve">
+    <value>[{0}@{1}]</value>
+    <comment>{0} - Comment author (Posted By)
+{1} - Comment posting date (PostedDate)</comment>
+  </data>
+  <data name="IssueClosedByXWithComment" xml:space="preserve">
+    <value>Issue closed by {0} with comment</value>
+    <comment>{0} - Issue closer</comment>
+  </data>
+  <data name="MigratedCodePlexWorkItemDetails" xml:space="preserve">
+    <value>This work item was migrated from CodePlex</value>
+  </data>
+  <data name="NoIssueFoundInGitHubRepoWithWorkItemIdX" xml:space="preserve">
+    <value>No issue was found in specified GitHub repo that corresponds to CodePlex work item ID {0}</value>
+    <comment>{0} - Work item ID</comment>
+  </data>
+  <data name="ReasonClosed" xml:space="preserve">
+    <value>Reason closed</value>
+  </data>
+  <data name="AddingWorkItem" xml:space="preserve">
+    <value>Adding work item {0} on target endpoint</value>
+    <comment>{0} - Work item ID</comment>
+  </data>
+  <data name="BeginMigrationMessage" xml:space="preserve">
+    <value>Starting migration</value>
+  </data>
+  <data name="MigrationCompletedSuccessfully" xml:space="preserve">
+    <value>Migration completed successfully</value>
+  </data>
+  <data name="LogExceptionMessage" xml:space="preserve">
+    <value>An unexpected exception was encountered while running migration. Exception message: {0}</value>
+    <comment>{0} - Exception message</comment>
+  </data>
+  <data name="LookupIndividualWorkItem" xml:space="preserve">
+    <value>Getting work item {0} from CodePlex</value>
+    <comment>{0} - Work item ID</comment>
+  </data>
+  <data name="LookupMigratedWorkItemsMessage" xml:space="preserve">
+    <value>Retrieving migrated work items from destination repository</value>
+  </data>
+  <data name="LookupWorkItemsToMigrate" xml:space="preserve">
+    <value>Looking up the work items to migrate from CodePlex project</value>
+  </data>
+  <data name="VoteCount" xml:space="preserve">
+    <value>Vote count</value>
+  </data>
+  <data name="UnrecoverableError" xml:space="preserve">
+    <value>Migration aborted due to an unrecoverable error. See the log file for full details of this run. If this is an intermittent issue, running this utility again with the same parameters will resume migration.</value>
+  </data>
+  <data name="UpdatingWorkItem" xml:space="preserve">
+    <value>Updating work item {0} on target endpoint</value>
+    <comment>{0} - Work item ID</comment>
+  </data>
+  <data name="TimeIntervalMustBeGreaterThanZero" xml:space="preserve">
+    <value>Time interval must be greater than zero</value>
+  </data>
+  <data name="StartingMigrationOfXWorkItems" xml:space="preserve">
+    <value>Starting migration of {0} work items from CodePlex project to destination repository</value>
+    <comment>{0} - Count of work items to migrate</comment>
+  </data>
+  <data name="SuccessfullyMigratedWorkItemIdXTitleY" xml:space="preserve">
+    <value>Succesfully migrated work item {0} [{1}/{2}] - "{3}"</value>
+    <comment>{0} - Work item ID
+{1} - Migrated work item count
+{2} - Remaining work item count
+{3} - Work item title</comment>
+  </data>
+  <data name="CodePlexWorkItemIdNotFoundInGitHubIssueBody" xml:space="preserve">
+    <value>CodePlex work item ID not found in GitHub issue body</value>
+  </data>
+  <data name="StringCannotBeAllWhiteSpace" xml:space="preserve">
+    <value>String cannot contain only whitespace characters</value>
+  </data>
+  <data name="StringCannotBeEmpty" xml:space="preserve">
+    <value>String cannot be empty</value>
+  </data>
+  <data name="ValueIsNotWithinAllowedRange" xml:space="preserve">
+    <value>Value is not within allowed range</value>
+  </data>
+  <data name="ErrorExtractingCodePlexWorkItemIdFromGitHubIssue" xml:space="preserve">
+    <value>Encountered an error extracting CodePlex work item ID from GitHub issue #{0}: {1}</value>
+    <comment>{0} - GitHub issue ID
+{1} - Error message</comment>
+  </data>
+  <data name="InvalidCodePlexWorkItemId" xml:space="preserve">
+    <value>Invalid CodePlex work item ID {0}</value>
+    <comment>{0} - Invalid work item string value</comment>
+  </data>
+  <data name="MultipleIssuesFoundInGitHubRepoWithWorkItemIdX" xml:space="preserve">
+    <value>Multiple issues were found in specified GitHub repo that are labeled with CodePlex work item ID {0}</value>
+    <comment>{0} - Work item ID</comment>
+  </data>
+  <data name="EncounteredCollisionWorkItemIdX" xml:space="preserve">
+    <value>Found an issue that is labeled as both partially migrated and fully migrated OR multiple issues were found in specified GitHub repo that are associated with CodePlex work item ID {0}</value>
+  </data>
+  <data name="ProgressOfMigrationWillBeSlow" xml:space="preserve">
+    <value>Progress of migration will be slow in order to avoid triggering GitHub APIs abuse mechanisms. Please, refer to the following URL for more info: https://developer.github.com/v3/guides/best-practices-for-integrators/#dealing-with-abuse-rate-limits</value>
+  </data>
+</root>
