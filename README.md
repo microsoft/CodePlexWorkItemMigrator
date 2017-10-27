@@ -7,7 +7,7 @@ Microsoft.CodePlex.Migration.WorkItemMigrator.exe -p CodePlexProject -o GitHubRe
 ```
 
 - `CodePlexProject` is the subdomain of your CodePlex project (`subdomain`.codeplex.com)
-- Given a GitHub repository like this one, Microsoft is the `GitHubRepoOwner`; CodePlexWorkItemMigrator is the `GitHubRepo`. 
+- `GitHubRepoOwner` is the user or organization that owns your migrated repo; `GitHubRepo` is your migrated repo. For instance, the [NuGet/Home](https://github.com/nuget/home) repository would use `nuget` as the owner and `home` as the repo.
 - `GitHubPersonalAccessToken` is a token you create [here](https://github.com/settings/tokens); make sure to select the `repo` scope.
 
 ## Installing
