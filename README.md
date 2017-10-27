@@ -11,7 +11,7 @@ Microsoft.CodePlex.Migration.WorkItemMigrator.exe -p CodePlexProject -o GitHubRe
 - `GitHubPersonalAccessToken` is a token you create [here](https://github.com/settings/tokens); make sure to select the `repo` scope.
 
 ## Installing
-Download and extract the zip, then run the executable using a command window.
+Download and extract the [zip](https://github.com/Microsoft/CodePlexWorkItemMigrator/files/1420246/Microsoft.CodePlex.Migration.WorkItemMigrator.1.0.0.zip), then run the executable using a command window.
 
 ## Notes
 + Migration progress will be slow (avg. 1 item/min) in order to avoid triggering GitHub APIs abuse mechanisms. _Please, refer to the following URL for more information on GitHub abuse rate limits: https://developer.github.com/v3/guides/best-practices-for-integrators/#dealing-with-abuse-rate-limits_
