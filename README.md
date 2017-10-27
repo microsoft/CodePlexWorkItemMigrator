@@ -2,9 +2,13 @@
 A command line tool to migrate CodePlex work items to GitHub issues.
 
 ## How to use
-**Microsoft.CodePlex.Migration.WorkItemMigrator.exe** **-p** _CodePlexProject_ **-o** _GitHubRepoOwner_ **-r** _GitHubRepo_ **-t** _GitHubPersonalAccessToken_
+```
+Microsoft.CodePlex.Migration.WorkItemMigrator.exe -p CodePlexProject -o GitHubRepoOwner -r GitHubRepo -t GitHubPersonalAccessToken
+```
 
-You can create a GitHub Personal Access Token [here](https://github.com/settings/tokens); make sure to select the 'repo' scope.
+- `CodePlexProject` is the subdomain of your CodePlex project (`subdomain`.codeplex.com)
+- Given a GitHub repository like this one, Microsoft is the `GitHubRepoOwner`; CodePlexWorkItemMigrator is the `GitHubRepo`. 
+- `GitHubPersonalAccessToken` is a token you create [here](https://github.com/settings/tokens); make sure to select the `repo` scope.
 
 ## Installing
 Download the zip and extract it into the folder you would like to run from.
