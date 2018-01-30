@@ -1,6 +1,10 @@
 # CodePlex to GitHub Work Item Migrator
 A command line tool to migrate CodePlex work items to GitHub issues.
 
+## Note 
+This tool was created to assist in the migration of projects from CodePlex to GitHub in preperation for CodePlex to be archived.
+Now that CodePlex is archived the APIs that are used to talk to CodePlex will not succeed.  The tool is being left here for historic purposes.
+
 ## How to use
 ```
 Microsoft.CodePlex.Migration.WorkItemMigrator.exe -p CodePlexProject -o GitHubRepoOwner -r GitHubRepo -t GitHubPersonalAccessToken
